@@ -1,12 +1,10 @@
 {
   "name": "gatsby-source-shopify-storefront",
   "version": "1.0.0",
-  "description":
-    "Gatsby source plugin for using product data from the Shopify Storefront API",
+  "description": "Gatsby source plugin for using product data from the Shopify Storefront API",
   "repository": {
     "type": "git",
-    "url":
-      "git+https://github.com/edenspiekermann/gatsby-source-shopify-storefront.git"
+    "url": "git+https://github.com/edenspiekermann/gatsby-source-shopify-storefront.git"
   },
   "keywords": [
     "gatsby",
@@ -18,10 +16,12 @@
   "author": "Jeff Pamer <jeff@mediumdivision.com>",
   "license": "MIT",
   "dependencies": {
-    "graphql-client": "^2.0.0",
-    "babel-runtime": "^6.26.0"
+    "babel-runtime": "^6.26.0",
+    "graphql-client": "^2.0.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.47",
+    "@babel/core": "^7.0.0-beta.47",
     "cross-env": "^5.0.5"
   },
   "scripts": {
