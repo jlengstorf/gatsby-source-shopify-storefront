@@ -2,10 +2,9 @@ const crypto = require('crypto');
 const productQuery = require('./product-query');
 
 exports.sourceNodes = async (
-  { boundActionCreators },
+  { actions: { createNode } },
   { siteName, accessToken }
 ) => {
-  const { createNode } = boundActionCreators;
   const client = require('graphql-client')({
     url: `https://${siteName}.myshopify.com/api/graphql`,
     headers: {
